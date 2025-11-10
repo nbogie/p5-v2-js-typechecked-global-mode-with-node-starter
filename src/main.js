@@ -7,3 +7,8 @@ function draw() {
     const x = document.createElement("div");
     document.appendChild(x);
 }
+
+/**
+ * @param {number[]} nums
+ */
+function foo(nums) {}
