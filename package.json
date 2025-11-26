@@ -1,9 +1,5 @@
 {
-    "scripts": {
-        "typecheck": "tsc --noEmit"
-    },
     "devDependencies": {
-        "p5": "^2.1.1",
-        "typescript": "^5.9.3"
+        "p5": "^2.1.1"
     }
 }
