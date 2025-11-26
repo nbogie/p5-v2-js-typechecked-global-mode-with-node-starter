@@ -11,3 +11,8 @@ This will download the most recent version of p5.js (into node_modules/). If you
 ## template issues:
 
 It's not a big deal but I think the location of the types should auto-resolve from the p5 package.json's `types` property. For now I've explicitly linked to them in `jsconfig.json` and that's version independent (for any p5 starting w v2).
+
+## Other p5 project starters
+Are you looking or project starter for p5 v1 ? v2? TS? JS with type-checking? Global mode ? Instance Mode?
+
+Check out https://github.com/nbogie/p5-beyond-the-web-editor-neill/blob/main/docs/starter-projects.md
