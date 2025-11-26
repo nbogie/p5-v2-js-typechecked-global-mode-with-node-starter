@@ -3,12 +3,19 @@ function setup() {
 }
 
 function draw() {
-    circle(width / 2, height / 2, 100);
-    const x = document.createElement("div");
-    document.appendChild(x);
+    const cellSize = 120;
+    const diameter = random(30, 120);
+    const x = snapTo(random(width), cellSize);
+    const y = snapTo(random(height), cellSize);
+    noStroke();
+    fill(snapTo(random(255), 50));
+    circle(x, y, diameter);
 }
 
 /**
- * @param {number[]} nums
+ * @param {number} value
+ * @param {number} increment
  */
-function foo(nums) {}
+function snapTo(value, increment) {
+    return increment * round(value / increment);
+}
